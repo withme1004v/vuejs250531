@@ -27,6 +27,7 @@ const router = createRouter({
           path: "view/:articleno",
           name: "article-view",
           component: () => import("@/components/board/BoardDetail.vue"),
+          //이페이지에 들어갈때 다운받는다.
         },
         {
           path: "write",
